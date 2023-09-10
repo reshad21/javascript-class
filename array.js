@@ -9,6 +9,8 @@ var vowel = ['a', 'e', 'i', '0', 'u'];
 
 var myFriends = ["jown", "dow", "smith", "lna"];
 
+var updateMyfrinds = [...myFriends,"jihad"];
+console.log(updateMyfrinds);
 
 console.log(myFriends.length);
 // var firstFriendName = myFriends[0];
@@ -22,3 +24,4 @@ myFriends.push("rosey");
 myFriends.pop("tomas");
 
 console.log(myFriends);
+
