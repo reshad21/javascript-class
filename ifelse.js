@@ -47,13 +47,13 @@
 
 // num = [1,2,3,4,5,6,7,8,9,10]
 
-// for (let i = 1; i <= 10; i++) {
+for (let i = 1; i <= 10; i++) {
 
-//     if (i % 2 !== 0) {
-//         console.log(i);
-//     }
+    if (i % 2 !== 0) {
+        console.log(i);
+    }
 
-// }
+}
 
 // num = [8, 9, 10, 33, 44, 21, 1, 2, 3, 4, 5, 6, 7]
 // console.log(num[0]);
@@ -88,6 +88,8 @@ function myBio(name, verityName, workingPlace, skills) {
     console.log(`my skill is ${skills}`);
 }
 
-myBio("reshad", "global", "fiverr", "frontend web developer");
+// myBio("reshad", "global", "fiverr", "frontend web developer");
 
-myBio("zihad","global", "upwork", "web design");
+// myBio("zihad","global", "upwork", "web design");
+
+myBio("john", "londonversity", "london", "web developr", 34)
