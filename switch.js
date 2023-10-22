@@ -1,4 +1,6 @@
-// let x = 5;
+a = parseFloat(" 100 ") 
+console.log('parseFloat(" 100 ") = ' + a); 
+
 // switch ("*") {
 //     case "+":
 //         const num1 = 4;
