@@ -1,5 +1,5 @@
-a = parseFloat(" 100 ") 
-console.log('parseFloat(" 100 ") = ' + a); 
+// a = parseFloat(" 100 ") 
+// console.log('parseFloat(" 100 ") = ' + a); 
 
 // switch ("*") {
 //     case "+":
@@ -28,25 +28,52 @@ console.log('parseFloat(" 100 ") = ' + a);
 //         break;
 // }
 
-function calculation (operation,num1,num2){
-    switch (operation) {
-        case "+":
-            return num1 + num2;
-            break;
-        case "-":
-            return num1 - num2;
-            break;
-        case "*":
-            return num1 * num2;
-            break;
-        case "/":
-            return num1 / num2;
-            break;
+// function calculation (operation,num1,num2){
+//     switch (operation) {
+//         case "+":
+//             return num1 + num2;
+//             break;
+//         case "-":
+//             return num1 - num2;
+//             break;
+//         case "*":
+//             return num1 * num2;
+//             break;
+//         case "/":
+//             return num1 / num2;
+//             break;
     
-        default:
-            break;
-    }
-}
+//         default:
+//             break;
+//     }
+// }
 
-const result = calculation("*",10,20);
-console.log(result);
+// const result = calculation("*",10,20);
+// console.log(result);
+
+// value = 42.89;
+// console.log(typeof value);
+// var floatNumber = parseFloat(value);
+
+// console.log(floatNumber);
+
+// var number = 42;
+// var floatNumber = Number(number);
+
+
+// Using assignment
+var number = 42;
+var floatNumber = parseFloat(number);
+
+// Using casting
+// var number = 42;
+// var floatNumber = Number(number); // or +number
+
+
+console.log(parseFloat({
+    toString() {
+      return "3.14";
+    },
+  }));
+
+
