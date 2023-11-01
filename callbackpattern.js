@@ -24,13 +24,6 @@ function progress(callback) {
 }
 
 
-
-
-
-
-
-
-
 function getCertificate(){
     console.log("Preparing your certificate");
     setTimeout(() => {
@@ -42,9 +35,9 @@ function getCertificate(){
 // progress(getCertificate);
 // getCertificate();
 
-// enroll(function(){
-//     progress(getCertificate);
-// })
+enroll(function(){
+    progress(getCertificate);
+})
 
 enroll(function(){
     progress(function(){
